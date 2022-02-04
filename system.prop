@@ -22,6 +22,10 @@ DEVICE_PROVISIONED=1
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
 
+# Dexopt
+pm.dexopt.first-boot=quicken
+pm.dexopt.bg-dexopt=everything
+
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
 
