@@ -31,6 +31,7 @@ persist.dirac.acs.storeSettings=1
 #Display 
 renderthread.skia.reduceopstasksplitting=true
 debug.renderengine.backend=skiaglthreaded
+vendor.display.disable_rotator_downscale=1
 
 # Power Saving
 power.saving.mode=1
