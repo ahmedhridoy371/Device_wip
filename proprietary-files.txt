@@ -1824,12 +1824,14 @@ vendor/lib/hw/activity_recognition.sdm660.so|b81d49cb6781f2255188efeca0965f2c645
 vendor/lib/libsensor1.so|c247730400d71e6c1b67626d2109cf52c9a57da1
 vendor/lib/libsensor_reg.so|8fc19423b5b39b0518c271b5ed5d8115e1ebdc50
 vendor/lib/sensor_calibrate.so|8fe40dfb1f10d6486b60f2a99e21e0fcf7344318
-vendor/lib/sensors.ssc.so|2127a224529656d54b15177129ca6783784ccb24
 vendor/lib64/hw/activity_recognition.sdm660.so|a21e1daa7a0f2dd111a9d9539602cd09580f69c8
 vendor/lib64/libsensor1.so|99405c9be06abaa21d29f16f6a30e8af154a9193
 vendor/lib64/libsensor_reg.so|b18e116898180bc196374ca76390e78e4a295dcb
 vendor/lib64/sensor_calibrate.so|9f0cd5ba6e11c50765f090deb6d8697e2eb3a187
-vendor/lib64/sensors.ssc.so|b53f9d8a5580feb9ca8f9e4efd080f76dc1d1588
+
+# Sensors - from PL2_sprout-user 10 QKQ1.190828.002 00WW_4_150
+vendor/lib/sensors.ssc.so|bee13b2ad7f1ef0d2cf63708fa38ad76877ea287
+vendor/lib64/sensors.ssc.so|42577aa881baa287ec037c0e59972ad0e0358b08
 
 # Thermal - from lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM release-keys
 vendor/etc/thermal-engine-camera.conf|db9829a655ca0c3013448e6a4aee3fcce9f90ca2
