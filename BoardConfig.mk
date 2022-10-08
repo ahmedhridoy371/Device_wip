@@ -60,6 +60,10 @@ TARGET_KERNEL_OPTIONAL_LD := true
 #sepolicy
 SELINUX_IGNORE_NEVERALLOWS := true
 
+# Additional Kernel Flags
+TARGET_KERNEL_ADDITIONAL_FLAGS +=
+HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument" LLVM=1 LLVM_IAS=1
+
 # Platform
 TARGET_BOARD_PLATFORM := sdm660
 
