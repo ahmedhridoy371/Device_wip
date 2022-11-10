@@ -52,3 +52,4 @@ profiler.debugmonitor=false
 profiler.launch=false
 logcat.live=disable
 persist.camera.debug.logfile=0
+ro.cherish.maintainer=Apex_Not_Legend
