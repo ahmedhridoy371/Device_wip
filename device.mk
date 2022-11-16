@@ -165,7 +165,6 @@ PRODUCT_PACKAGES += \
     vendor.display.config@2.0.vendor
 
 PRODUCT_PACKAGES += \
-    android.frameworks.displayservice@1.0 \
     android.hardware.graphics.allocator@2.0-impl \
     android.hardware.graphics.allocator@2.0-service \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
