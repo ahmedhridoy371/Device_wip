@@ -89,8 +89,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.qcom.bluetooth.soc=cherokee \
-    ro.vendor.bluetooth.wipower=false \
-    persist.vendor.service.bdroid.sibs=false
+    ro.vendor.bluetooth.wipower=false
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.bluetooth.a2dp_offload.disabled=false \
