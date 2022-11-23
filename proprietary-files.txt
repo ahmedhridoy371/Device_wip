@@ -144,8 +144,8 @@ vendor/lib64/libbt-hidlclient.so|0a0d0ac4e2f4e2e80f4ec488b53c18c96ff08dc6
 vendor/lib64/libbtnv.so|a6793a7b93fa607fcec39da7479566f84ed39aa4
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|9b7ae20ce9d6d2a67fdac94268cec441278cca3d
 
-# Charger - from LA.UM.8.2.r1-06700-sdm660.0
-vendor/bin/hvdcp_opti|31fe37f97728d257fdb8d34ba7bec6b308879bd5
+# Charger - from LA.UM.9.2.1.r1-08700-sdm660.0
+vendor/bin/hvdcp_opti|45f500aa4816c87de222ee7eb33655f0e83e392c
 
 # CNE - from LA.UM.8.2.r1-06700-sdm660.0
 -vendor/app/CneApp/CneApp.apk|67dd058d8e665a8606c1ff6c3980e844a9bf323e
@@ -1816,19 +1816,19 @@ vendor/lib64/lib-imsvtcore.so|47d945bf976134fdb57b4f44dd73a1347f2bf421
 vendor/etc/sensors/elliptic.conf|fd6193dd8ec39f85948151a83a14690c228121b9
 vendor/etc/sensors/sensor_def_qcomdev.conf|3ce1145d65ade70300feadf971e69ad6f522a749
 
-# Sensors - from LA.UM.8.2.r1-06700-sdm660.0
-product/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|bda110fc8102be6f88bd0e364819d15d9c0c3744
-product/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|67620ca191213b83e898ee401807eb8385b0020d
-vendor/bin/sensors.qti|0dee19d3b3d3b4c1dae65fd8206eb5af17fa3866
-vendor/lib/hw/activity_recognition.sdm660.so|47c588e1bdb357f31721171dc1d6a781c743bd64
-vendor/lib/libsensor1.so|b1b0dcb45432e51fabffe595010f35a017c7a3fd
-vendor/lib/libsensor_reg.so|170c40b9b7d48c922cd3ca1a552a34311ee79799
-vendor/lib/sensor_calibrate.so|9f81f1bf43b7871555915c9d57bba16d0419af40
+# Sensors - from LA.UM.9.2.1.r1-08700-sdm660.0
+system_ext/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|4307a6f48c60076d2c8fa688cb699f3aceddc4f8
+system_ext/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|00569f4022ccdd8fc2e01ed515a9035604abfbed
+vendor/bin/sensors.qti|4a9d9a0c6f7269b265f7800fcbdd48bf3e925b93
+vendor/lib/hw/activity_recognition.sdm660.so|b81d49cb6781f2255188efeca0965f2c645cf3ac
+vendor/lib/libsensor1.so|c247730400d71e6c1b67626d2109cf52c9a57da1
+vendor/lib/libsensor_reg.so|8fc19423b5b39b0518c271b5ed5d8115e1ebdc50
+vendor/lib/sensor_calibrate.so|8fe40dfb1f10d6486b60f2a99e21e0fcf7344318
 vendor/lib/sensors.ssc.so|2127a224529656d54b15177129ca6783784ccb24
-vendor/lib64/hw/activity_recognition.sdm660.so|d7dac1daafb812625094f5e85097c00fdc385da1
-vendor/lib64/libsensor1.so|dac9d5fb1b5aacfa5bedf812ebdd04eadd0af2dc
-vendor/lib64/libsensor_reg.so|be00c924983a2a279f799332cf2b262da9af78d1
-vendor/lib64/sensor_calibrate.so|dacb7a77e1713a756a43c082329e9f42e2c0d40e
+vendor/lib64/hw/activity_recognition.sdm660.so|a21e1daa7a0f2dd111a9d9539602cd09580f69c8
+vendor/lib64/libsensor1.so|99405c9be06abaa21d29f16f6a30e8af154a9193
+vendor/lib64/libsensor_reg.so|b18e116898180bc196374ca76390e78e4a295dcb
+vendor/lib64/sensor_calibrate.so|9f0cd5ba6e11c50765f090deb6d8697e2eb3a187
 vendor/lib64/sensors.ssc.so|b53f9d8a5580feb9ca8f9e4efd080f76dc1d1588
 
 # Thermal - from lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM release-keys
@@ -1857,5 +1857,5 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e157937
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|a917bd71ccfdbdd89e26704a230c7c148d3cc4b5
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|1ac676dca4c81094b254b62f1b608e471b385847
 
-# Wi-Fi - from LA.UM.8.2.r1-06700-sdm660.0
-vendor/bin/cnss-daemon|d7118e205124e456e6d5ff01efeb8ad931001eb3
+# Wi-Fi - from LA.UM.9.2.1.r1-08700-sdm660.0
+vendor/bin/cnss-daemon|30f60aee128a6ba8c3e9c140b792529e824441c0
