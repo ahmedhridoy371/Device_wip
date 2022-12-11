@@ -149,6 +149,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     camera.sdm660_shim
 
+# System
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.binary_xml=false
+
 # Cgroup and task_profiles
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
