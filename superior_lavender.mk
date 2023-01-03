@@ -28,6 +28,7 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 SUPERIOR_OFFICIAL := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
