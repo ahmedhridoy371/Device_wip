@@ -118,6 +118,7 @@ debug.sf.latch_unsignaled=0
 debug.sf.enable_gl_backpressure=0
 debug.sf.disable_backpressure=0
 debug.cpurend.vsync=true
+ro.config.avoid_gfx_accel=true
 debug.hwui.renderer=skiagl
 ro.opengles.version=196610
 ro.vendor.display.sensortype=2
