@@ -113,6 +113,7 @@ debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 
 # Display
+debug.hwui.skia_atrace_enabled=false
 debug.sf.disable_client_composition_cache=1
 debug.sf.latch_unsignaled=0
 debug.sf.enable_gl_backpressure=0
