@@ -13,6 +13,7 @@ $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 # Xtended Stuffs
 XTENDED_BUILD_MAINTAINER := Apex_Not_Legend
 XTENDED_BUILD_TYPE := OFFICIAL
+PROCESSOR_MODEL := SDM660
 WITH_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_FACE_UNLOCK_SUPPORTED := true
