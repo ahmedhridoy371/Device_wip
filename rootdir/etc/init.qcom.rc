@@ -524,6 +524,9 @@ on property:vold.decrypt=trigger_restart_framework
     start qcom-c_main-sh
     restart vendor.audio-hal-2-0
     restart vendor.camera-provider-2-4
+    restart vendor.qcrild
+    exec /bin/sleep 2
+    restart vendor.qcrild2
 
 service vendor.qrtr-ns /vendor/bin/qrtr-ns -f
     class core
