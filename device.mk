@@ -34,6 +34,10 @@ PRODUCT_SOONG_NAMESPACES += device/xiaomi/lavender \
                             hardware/google/interfaces \
                             hardware/google/pixel
 
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI
+
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
