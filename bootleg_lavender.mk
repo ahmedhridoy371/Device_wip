@@ -22,8 +22,6 @@ TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
 # Maintainer Prop
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.bootleggers.maintainer=devilonfirebot
 BOOTLEGGERS_BUILD_TYPE := Noob Edition
 TARGET_BOOTLEG_ARCH := arm64
 WITH_GAPPS := true
