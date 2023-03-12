@@ -64,3 +64,9 @@ profiler.debugmonitor=false
 profiler.launch=false
 logcat.live=disable
 persist.camera.debug.logfile=0
+# Maintainer & Blur Disable Prop
+ro.bootleggers.maintainer=devilonfirebot
+persist.sys.sf.disable_blurs=1
+ro.surface_flinger.supports_background_blur=0
+
+
