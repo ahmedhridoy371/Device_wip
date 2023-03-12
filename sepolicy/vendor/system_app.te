@@ -13,5 +13,5 @@ get_prop(system_app, system_prop);
 set_prop(system_app, system_prop);
 
 # Battery Health
-allow system_app sysfs_battery_supply:dir { search };
-allow system_app sysfs_battery_supply:file { read open getattr };
+allow system_app sysfs_battery_supply:dir search;
+allow system_app sysfs_battery_supply:file rw_file_perms;
