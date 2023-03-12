@@ -11,6 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Bootleggers ROM stuff.
 $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
+# Sony Dolby
+$(call inherit-product, vendor/dolby/config.mk)
+
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_FACE_UNLOCK_SUPPORTED := true
