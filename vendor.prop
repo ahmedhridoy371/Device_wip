@@ -91,6 +91,7 @@ vendor.audio.feature.audiozoom.enable=false
 vendor.audio.feature.snd_mon.enable=false
 
 # Bluetooth
+bluetooth.hardware.power.operating_voltage_mv=3700
 vendor.qcom.bluetooth.soc=cherokee
 ro.vendor.bluetooth.wipower=false
 persist.bluetooth.a2dp_offload.disabled=false
