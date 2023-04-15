@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "ahmedhridoy371/kernel_xiaomi_lavender-4.4",
+    "target_path": "kernel/xiaomi/lavender",
+    "branch": "a13-qti-camfix",
+    "remote":"github"
+  },
+  {
+    "repository": "ahmedhridoy371/Vendor_wip",
+    "target_path": "vendor/xiaomi/lavender",
+    "branch": "13",
+    "remote": "github"
+  },
+    {
+    "repository": "ahmedgaming371/clang13",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-r450784d",
+    "branch":"master",
+    "remote":"gitlab"
+  }
+]
